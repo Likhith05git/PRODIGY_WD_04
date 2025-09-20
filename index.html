@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>"Likhith kumar DN!"| Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Header / Navbar -->
+  <header class="header">
+    <nav class="navbar">
+      <a href="#home" class="logo">Portfolio</a>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-text">
+      <h2>Hello,</h2>
+      <h1>I'm <span>Likhith kumar DN!</span></h1>
+      <p>Web Developer</p>
+      <div class="buttons">
+      </div>
+    </div>
+    <div class="hero-img">
+      <img src="my photo.jpg" alt="Likhith photo" />
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="about">
+    <h2 class="section-title">About Me</h2>
+    <p>
+      I am a Computer Science student passionate about web development, skilled
+      in creating responsive and user-friendly designs using HTML, CSS, and JavaScript.
+      I am a passionate Computer Science student with a strong interest in building
+      user-friendly and responsive web applications.
+    </p>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="skills">
+    <h2 class="section-title">Skills</h2>
+    <div class="skill-box">
+      <p>HTML <span>92%</span></p>
+      <progress value="92" max="100"></progress>
+      <p>CSS <span>80%</span></p>
+      <progress value="80" max="100"></progress>
+      <p>JavaScript <span>55%</span></p>
+      <progress value="55" max="100"></progress>
+      <p>Python <span>25%</span></p>
+      <progress value="25" max="100"></progress>
+      <p>MySQL <span>45%</span></p>
+      <progress value="45" max="100"></progress>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="projects">
+    <h2 class="section-title">Projects</h2>
+    <div class="project-grid">
+      <div class="project-card">
+        <img src="prodigy img1.png" alt="Landing page" />
+        <h3>Landing Page</h3>
+      </div>
+      <div class="project-card">
+        <img src="prodigy img2.png" alt="Stopwatch" />
+        <h3>Stopwatch</h3>
+      </div>
+      <div class="project-card">
+        <img src="prodigy img3.png" alt="Tic Tac Toe" />
+        <h3>Tic Tac Toe</h3>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="contact">
+    <h2 class="section-title">Contact</h2>
+    <p>Email: <a href="mailto:likhithkumar1205@gmail.com">likhithkumar1205@gmail.com</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/likhith-kumar-05379537a" target="_blank">Likhith Kumar</a></p>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; <span id="year"></span> Likhith DN</p>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

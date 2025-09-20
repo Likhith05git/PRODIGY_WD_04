@@ -1,0 +1,49 @@
+/* Reset */
+*{margin:0;padding:0;box-sizing:border-box;font-family:Arial, sans-serif}
+body{background:#f9f9f9;color:#222;line-height:1.6}
+a{text-decoration:none;color:inherit}
+
+/* Navbar */
+.header{background:#fff;box-shadow:0 2px 6px rgba(0,0,0,0.1);position:sticky;top:0;z-index:100}
+.navbar{max-width:1100px;margin:auto;display:flex;justify-content:space-between;align-items:center;padding:15px}
+.logo{font-weight:bold;font-size:20px}
+.nav-links{list-style:none;display:flex;gap:20px}
+.nav-links a{padding:6px 10px;border-radius:6px;transition:0.2s}
+.nav-links a:hover{background:#0b5cff;color:#fff}
+
+/* Hero */
+.hero{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;max-width:1100px;margin:auto;padding:50px 20px}
+.hero-text{flex:1;min-width:250px}
+.hero-text h1{font-size:2.2rem;margin:10px 0}
+.hero-text span{color:#0b5cff}
+.buttons{margin-top:15px;display:flex;gap:12px}
+.btn{padding:10px 16px;border-radius:6px;background:#0b5cff;color:#fff;font-weight:600}
+.btn.secondary{background:#555}
+.hero-img img{width:260px;height:260px;object-fit:cover;border-radius:50%}
+
+/* Section common */
+.section-title{text-align:center;font-size:1.8rem;margin:30px 0 20px}
+
+/* About */
+.about{max-width:900px;margin:auto;padding:20px;text-align:center}
+
+/* Skills */
+.skills{max-width:900px;margin:auto;padding:20px}
+.skill-box p{display:flex;justify-content:space-between;margin:8px 0}
+progress{width:100%;height:12px;border-radius:6px;overflow:hidden}
+progress::-webkit-progress-bar{background:#eee}
+progress::-webkit-progress-value{background:#0b5cff}
+progress::-moz-progress-bar{background:#0b5cff}
+
+/* Projects */
+.projects{max-width:1100px;margin:auto;padding:20px}
+.project-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}
+.project-card{background:#fff;padding:10px;border-radius:10px;box-shadow:0 4px 12px rgba(0,0,0,0.05);text-align:center}
+.project-card img{width:100%;height:160px;object-fit:cover;border-radius:8px;margin-bottom:8px}
+
+/* Contact */
+.contact{max-width:700px;margin:auto;padding:20px;text-align:center}
+.contact a{color:#0b5cff}
+
+/* Footer */
+.footer{text-align:center;padding:15px;background:#fff;margin-top:30px;box-shadow:0 -2px 6px rgba(0,0,0,0.05)}
